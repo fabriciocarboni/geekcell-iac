@@ -179,7 +179,6 @@ output "vpc_id" {
 output "public_subnets"{
   description = "Public subnets"
   value = [aws_subnet.public-a.id,aws_subnet.public-b.id]
-  # value = aws_subnet.public-a.id
 }
 
 output "private_subnets"{
